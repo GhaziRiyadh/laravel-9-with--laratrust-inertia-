@@ -11,7 +11,7 @@
         "inertiajs/inertia-laravel": "^0.5.2",
         "laravel/framework": "^9.5",
         "laravel/jetstream": "^2.6",
-        "laravel/sanctum": "dev-develop",
+        "laravel/sanctum": "^2.14",
         "laravel/tinker": "dev-develop",
         "santigarcor/laratrust": "^7.0",
         "tightenco/ziggy": "^1.0"
