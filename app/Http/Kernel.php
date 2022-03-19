@@ -38,6 +38,9 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
             \App\Http\Middleware\HandleInertiaRequests::class,
+            'role' => \Laratrust\Middleware\LaratrustRole::class,
+            'permission' => \Laratrust\Middleware\LaratrustPermission::class,
+            'ability' => \Laratrust\Middleware\LaratrustAbility::class,
         ],
 
         'api' => [
