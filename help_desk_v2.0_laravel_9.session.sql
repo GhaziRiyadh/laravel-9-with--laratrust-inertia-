@@ -1,0 +1,1 @@
+create DATABASE laravel_9;
